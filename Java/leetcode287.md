@@ -4,7 +4,7 @@ https://leetcode.com/problems/find-the-duplicate-number
 
 ## SS of submission
 
-![LeetCode Submission](./images/leetcode287.png)
+![LeetCode Submission](./image/leetcode287.png)
 
 ```Java
 class Solution {
