@@ -1,2 +1,6 @@
-echo ".DS_Store" > .gitignore
-echo "**/.DS_Store" >> .gitignore
+# Ignore macOS system files
+.DS_Store
+**/.DS_Store
+
+# Ignore Obsidian vault folder
+.obsidian/
