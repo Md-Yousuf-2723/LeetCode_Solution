@@ -2,7 +2,7 @@
 https://leetcode.com/problems/integer-to-roman/
 
 ## SS of submission
-![[leetcode12.png]]
+![LeetCode Submission](./images/leetcode12.png)
 
 ```C++
 string intToRoman(int num){
