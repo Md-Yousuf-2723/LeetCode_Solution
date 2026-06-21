@@ -8,3 +8,6 @@
 # Ignore C++ scratchpad and its compiled binary
 code.cpp
 code
+
+# Ignore VS Code workspace settings
+.vscode/
