@@ -14,7 +14,7 @@
 </tr></table>
 
 <p>A collaborative collection of LeetCode problem solutions in <strong>C++</strong> and <strong>Java</strong>.<br/>
-Every solution comes with structured notes and helpful reference materials.</p>
+Every solution comes with structured solution code and helpful reference materials.</p>
 
 [![C++ Solutions](https://img.shields.io/badge/C%2B%2B-Solutions-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)](./C++)
 [![Java Solutions](https://img.shields.io/badge/Java-Solutions-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)](./Java)
