@@ -51,7 +51,6 @@ Every solution comes with structured solution code and helpful reference materia
 | [leetcode138.md](./C++/leetcode138.md) | Problem 138 |
 | [leetcode141.md](./C++/leetcode141.md) | Problem 141 |
 | [leetcode143.md](./C++/leetcode143.md) | Problem 143 |
-| [leetcode999.md](./C++/leetcode999.md) | Problem 999 |
 <!-- CPP-TABLE-END -->
 
 </details>
