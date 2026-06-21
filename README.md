@@ -1,9 +1,9 @@
 <div align="center">
 
-<a href="https://leetcode.com/u/Yousuf2723/" target="_blank">
+<!-- <a href="https://leetcode.com/u/Yousuf2723/" target="_blank">
   <img src="https://cdnl.iconscout.com/lottie/premium/preview-watermark/leetcode-animation-gif-download-8859706.mp4"
        alt="LeetCode" width="100%" style="display:block;">
-</a>
+</a> -->
 
 > [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=28&duration=3000&pause=1000&color=FFA116&center=true&vCenter=true&width=600&lines=🧩+LeetCode_Solution;C%2B%2B+%26+Java+Solutions;Solve.+Document.+Repeat.)](https://git.io/typing-svg)
 
