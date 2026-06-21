@@ -61,13 +61,13 @@ Every solution comes with structured solution code and helpful reference materia
 <!-- JAVA-TABLE-START -->
 | File | Problem |
 |------|---------|
-| [LeetCode141.md](./Java/LeetCode141.md) | Problem 141 |
 | [leetcode19.md](./Java/leetcode19.md) | Problem 19 |
 | [leetcode20.md](./Java/leetcode20.md) | Problem 20 |
 | [leetcode21.md](./Java/leetcode21.md) | Problem 21 |
 | [leetcode23.md](./Java/leetcode23.md) | Problem 23 |
 | [leetcode114.md](./Java/leetcode114.md) | Problem 114 |
 | [leetcode138.md](./Java/leetcode138.md) | Problem 138 |
+| [LeetCode141.md](./Java/LeetCode141.md) | Problem 141 |
 | [leetcode143.md](./Java/leetcode143.md) | Problem 143 |
 | [leetcode206.md](./Java/leetcode206.md) | Problem 206 |
 | [leetcode287.md](./Java/leetcode287.md) | Problem 287 |
