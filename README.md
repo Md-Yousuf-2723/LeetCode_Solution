@@ -14,20 +14,7 @@ Every solution comes with structured notes and helpful reference materials.</p>
 
 ---
 
-<!-- OUTER TWO-COLUMN: left=main content | right=contributors -->
-<table width="100%"><tr>
-
-<!-- ═══════════════════════ LEFT COLUMN ═══════════════════════ -->
-<td width="75%" valign="top">
-
-### 📖 About
-
-A collaborative collection of LeetCode problem solutions in **C++** and **Java**.
-Every solution comes with structured notes and helpful reference materials.
-
----
-
-<!-- INNER TWO-COLUMN: folder structure | pinterest + icons -->
+<!-- TWO-COLUMN: folder structure | pinterest + icons -->
 <table width="100%"><tr>
 
 <!-- folder structure cell -->
@@ -102,63 +89,54 @@ Visual notes, algorithm diagrams, and solution references.
 
 ---
 
-### 📜 License
+## 🤝 Contributors
 
-This project is licensed under the [MIT License](LICENSE).
+<div align="center">
 
+<table><tr>
+
+<td align="center" width="200">
+  <a href="https://github.com/Md-Yousuf-2723" target="_blank">
+    <img src="https://github.com/Md-Yousuf-2723.png" width="80" style="border-radius:50%;" alt="Yousuf"/>
+    <br/>
+    <b>Md-Yousuf-2723</b>
+    <br/>
+    <sub>Mr Nobody</sub>
+    <br/>
+    <sub>⚙️ C++ Solutions</sub>
+  </a>
 </td>
 
-<!-- ═══════════════════════ RIGHT COLUMN — Contributors ═══════════════════════ -->
-<td width="25%" valign="top" align="center">
+<td align="center" width="200">
+  <a href="https://github.com/Emas15" target="_blank">
+    <img src="https://github.com/Emas15.png" width="80" style="border-radius:50%;" alt="Emas15"/>
+    <br/>
+    <b>Emas15</b>
+    <br/>
+    <sub>Emtiaz Ahmed Siam</sub>
+    <br/>
+    <sub>🤝 Collaborator</sub>
+  </a>
+</td>
 
-### 🤝 Contributors
-
-<br/>
-
-<a href="https://github.com/Md-Yousuf-2723" target="_blank">
-  <img src="https://github.com/Md-Yousuf-2723.png" width="80" style="border-radius:50%;" alt="Yousuf"/>
-  <br/>
-  <b>Md-Yousuf-2723</b>
-  <br/>
-  <sub>Mr Nobody</sub>
-  <br/>
-  <sub>⚙️ C++ Solutions</sub>
-</a>
-
-<br/><br/>
-
----
-
-<br/>
-
-<a href="https://github.com/Emas15" target="_blank">
-  <img src="https://github.com/Emas15.png" width="80" style="border-radius:50%;" alt="Emas15"/>
-  <br/>
-  <b>Emas15</b>
-  <br/>
-  <sub>Emtiaz Ahmed Siam</sub>
-  <br/>
-  <sub>🤝 Collaborator</sub>
-</a>
-
-<br/><br/>
-
----
-
-<br/>
-
-<a href="https://github.com/fahmidrahman5600" target="_blank">
-  <img src="https://github.com/fahmidrahman5600.png" width="80" style="border-radius:50%;" alt="fahmidrahman5600"/>
-  <br/>
-  <b>fahmidrahman5600</b>
-  <br/>
-  <sub>Fahmid Rahman</sub>
-  <br/>
-  <sub>☕ Java Solutions</sub>
-</a>
-
-<br/><br/>
-
+<td align="center" width="200">
+  <a href="https://github.com/fahmidrahman5600" target="_blank">
+    <img src="https://github.com/fahmidrahman5600.png" width="80" style="border-radius:50%;" alt="fahmidrahman5600"/>
+    <br/>
+    <b>fahmidrahman5600</b>
+    <br/>
+    <sub>Fahmid Rahman</sub>
+    <br/>
+    <sub>☕ Java Solutions</sub>
+  </a>
 </td>
 
 </tr></table>
+
+</div>
+
+---
+
+## 📜 License
+
+This project is licensed under the [MIT License](LICENSE).
