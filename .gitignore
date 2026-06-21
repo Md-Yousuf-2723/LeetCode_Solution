@@ -4,3 +4,7 @@
 
 # Ignore Obsidian vault folder
 .obsidian/
+
+# Ignore C++ scratchpad and its compiled binary
+code.cpp
+code
