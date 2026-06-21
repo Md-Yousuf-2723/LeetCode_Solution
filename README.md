@@ -1,6 +1,17 @@
 <div align="center">
 
+<div align="center">
+
+<table border="0"><tr>
+<td valign="middle" align="center" width="70">
+  <img src="https://cdn.simpleicons.org/leetcode/FFA116" width="52" alt="LeetCode Logo"/>
+</td>
+<td valign="middle">
+
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=28&duration=3000&pause=1000&color=FFA116&center=true&vCenter=true&width=650&lines=🧩+LeetCode_Solution;Solve.+Document.+Repeat.;C%2B%2B+%26+Java+Solutions)](https://git.io/typing-svg)
+
+</td>
+</tr></table>
 
 <p>A collaborative collection of LeetCode problem solutions in <strong>C++</strong> and <strong>Java</strong>.<br/>
 Every solution comes with structured notes and helpful reference materials.</p>
