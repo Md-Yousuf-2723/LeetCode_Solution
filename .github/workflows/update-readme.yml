@@ -4,9 +4,6 @@ on:
   push:
     branches:
       - main
-    paths:
-      - 'C++/**'
-      - 'Java/**'
 
 jobs:
   update-readme:
@@ -18,64 +15,55 @@ jobs:
       - name: ⬇️ Checkout repo
         uses: actions/checkout@v4
 
-      - name: 🐍 Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.11'
-
       - name: 📝 Regenerate folder tables in README
         run: |
-          python3 << 'PYEOF'
-          import os, re
+          python3 - << 'PYEOF'
+import os, re
 
-          # ── helpers ──────────────────────────────────────────────
-          def problem_num(filename):
-              """Extract leading digits from filename for sort key."""
-              m = re.search(r'(\d+)', filename)
-              return int(m.group(1)) if m else 0
+def problem_num(filename):
+    m = re.search(r'(\d+)', filename)
+    return int(m.group(1)) if m else 0
 
-          def build_table(folder):
-              files = sorted(
-                  [f for f in os.listdir(folder) if f.endswith('.md')],
-                  key=problem_num
-              )
-              if not files:
-                  return "| File | Problem |\n|------|---------|"
-              rows = ["| File | Problem |", "|------|---------|"]
-              for f in files:
-                  num = re.search(r'(\d+)', f)
-                  label = f"Problem {num.group(1)}" if num else f
-                  rows.append(f"| [{f}](./{folder}/{f}) | {label} |")
-              return "\n".join(rows)
+def build_table(folder):
+    if not os.path.isdir(folder):
+        return "| File | Problem |\n|------|---------|"
+    files = sorted(
+        [f for f in os.listdir(folder) if f.endswith('.md')],
+        key=problem_num
+    )
+    if not files:
+        return "| File | Problem |\n|------|---------|"
+    rows = ["| File | Problem |", "|------|---------|"]
+    for f in files:
+        num = re.search(r'(\d+)', f)
+        label = f"Problem {num.group(1)}" if num else f
+        rows.append(f"| [{f}](./{folder}/{f}) | {label} |")
+    return "\n".join(rows)
 
-          # ── read README ──────────────────────────────────────────
-          with open("README.md", "r") as fh:
-              content = fh.read()
+with open("README.md", "r") as fh:
+    content = fh.read()
 
-          # ── replace C++ table ────────────────────────────────────
-          cpp_table = build_table("C++")
-          content = re.sub(
-              r'(<!-- CPP-TABLE-START -->).*?(<!-- CPP-TABLE-END -->)',
-              f'<!-- CPP-TABLE-START -->\n{cpp_table}\n<!-- CPP-TABLE-END -->',
-              content,
-              flags=re.DOTALL
-          )
+cpp_table = build_table("C++")
+content = re.sub(
+    r'<!-- CPP-TABLE-START -->.*?<!-- CPP-TABLE-END -->',
+    f'<!-- CPP-TABLE-START -->\n{cpp_table}\n<!-- CPP-TABLE-END -->',
+    content,
+    flags=re.DOTALL
+)
 
-          # ── replace Java table ───────────────────────────────────
-          java_table = build_table("Java")
-          content = re.sub(
-              r'(<!-- JAVA-TABLE-START -->).*?(<!-- JAVA-TABLE-END -->)',
-              f'<!-- JAVA-TABLE-START -->\n{java_table}\n<!-- JAVA-TABLE-END -->',
-              content,
-              flags=re.DOTALL
-          )
+java_table = build_table("Java")
+content = re.sub(
+    r'<!-- JAVA-TABLE-START -->.*?<!-- JAVA-TABLE-END -->',
+    f'<!-- JAVA-TABLE-START -->\n{java_table}\n<!-- JAVA-TABLE-END -->',
+    content,
+    flags=re.DOTALL
+)
 
-          # ── write back ───────────────────────────────────────────
-          with open("README.md", "w") as fh:
-              fh.write(content)
+with open("README.md", "w") as fh:
+    fh.write(content)
 
-          print("✅ README updated successfully.")
-          PYEOF
+print("✅ README updated successfully.")
+PYEOF
 
       - name: 📤 Commit & push if changed
         run: |
