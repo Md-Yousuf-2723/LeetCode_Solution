@@ -45,6 +45,8 @@ Every solution comes with structured solution code and helpful reference materia
 | [leetcode7.md](./C++/leetcode7.md) | Problem 7 |
 | [leetcode11.md](./C++/leetcode11.md) | Problem 11 |
 | [leetcode12.md](./C++/leetcode12.md) | Problem 12 |
+| [leetcode26.md](./C++/leetcode26.md) | Problem 26 |
+| [leetcode31.md](./C++/leetcode31.md) | Problem 31 |
 | [leetcode66.md](./C++/leetcode66.md) | Problem 66 |
 | [leetcode69.md](./C++/leetcode69.md) | Problem 69 |
 | [leetcode88.md](./C++/leetcode88.md) | Problem 88 |
