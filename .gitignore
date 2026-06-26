@@ -11,3 +11,9 @@ code
 
 # Ignore VS Code workspace settings
 .vscode/
+
+# Ignore Drive upload
+.tmp.driveupload/
+
+# Ignore Drive download
+.tmp.drivedownload/
