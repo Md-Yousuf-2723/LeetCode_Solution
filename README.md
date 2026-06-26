@@ -65,6 +65,7 @@ Every solution comes with structured solution code and helpful reference materia
 | [leetcode20.md](./Java/leetcode20.md) | Problem 20 |
 | [leetcode21.md](./Java/leetcode21.md) | Problem 21 |
 | [leetcode23.md](./Java/leetcode23.md) | Problem 23 |
+| [leetcode88.md](./Java/leetcode88.md) | Problem 88 |
 | [leetcode114.md](./Java/leetcode114.md) | Problem 114 |
 | [leetcode138.md](./Java/leetcode138.md) | Problem 138 |
 | [LeetCode141.md](./Java/LeetCode141.md) | Problem 141 |
