@@ -17,3 +17,6 @@ code
 
 # Ignore Drive download
 .tmp.drivedownload/
+
+# Ignore track.txt
+track.txt
