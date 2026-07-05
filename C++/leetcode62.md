@@ -1,5 +1,5 @@
 # Problem Link 
-https://leetcode.com/problems/plus-one/
+https://leetcode.com/problems/unique-paths/description/
 ## SS of submission
 ![LeetCode Submission](./images/leetcode62.png)
 
@@ -7,7 +7,7 @@ https://leetcode.com/problems/plus-one/
 class Solution {
 public:
     int uniquePaths(int n, int m) {
-        
+
             vector<int>prev(m+1,0),cur(m+1,0);
 
             prev[1]=1;
