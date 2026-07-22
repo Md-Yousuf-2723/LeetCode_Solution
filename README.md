@@ -108,54 +108,6 @@ Visual notes, algorithm diagrams, and solution references.
 
 ---
 
-## 🤝 Contributors
-
-<div align="center">
-
-<table><tr>
-
-<td align="center" width="200">
-  <a href="https://github.com/Md-Yousuf-2723" target="_blank">
-    <img src="https://github.com/Md-Yousuf-2723.png" width="80" style="border-radius:50%;" alt="Yousuf"/>
-    <br/>
-    <b>Md-Yousuf-2723</b>
-    <br/>
-    <sub>Mr Nobody</sub>
-    <br/>
-    <sub>⚙️ C++ Solutions</sub>
-  </a>
-</td>
-
-<td align="center" width="200">
-  <a href="https://github.com/Emas15" target="_blank">
-    <img src="https://github.com/Emas15.png" width="80" style="border-radius:50%;" alt="Emas15"/>
-    <br/>
-    <b>Emas15</b>
-    <br/>
-    <sub>Emtiaz Ahmed Siam</sub>
-    <br/>
-    <sub>🤝 Collaborator</sub>
-  </a>
-</td>
-
-<td align="center" width="200">
-  <a href="https://github.com/fahmidrahman5600" target="_blank">
-    <img src="https://github.com/fahmidrahman5600.png" width="80" style="border-radius:50%;" alt="fahmidrahman5600"/>
-    <br/>
-    <b>fahmidrahman5600</b>
-    <br/>
-    <sub>Fahmid Rahman</sub>
-    <br/>
-    <sub>☕ Java Solutions</sub>
-  </a>
-</td>
-
-</tr></table>
-
-</div>
-
----
-
 ## 📜 License
 
 This project is licensed under the [MIT License](LICENSE).
