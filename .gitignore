@@ -20,3 +20,7 @@ code
 
 # Ignore track.txt
 track.txt
+
+# Ignore Agentic Skills
+.agents
+skills-lock.json
